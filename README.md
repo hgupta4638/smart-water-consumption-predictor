@@ -66,11 +66,6 @@ Smart Water Consumption Predictor/
 │   │   └── water_consumption_daily.csv # 731 days of continuous daily consumption data
 │   └── raw/
 │       └── README.md                # Dataset research, standards, and transparency notice
-├── docs/
-│   ├── screenshots/                 # Genuine application screenshots
-│   ├── CONCEPT_NOTE.md              # Academic & engineering concept note with 6-week timeline
-│   ├── LEAN_CANVAS.md               # 9-box startup and operational Lean Canvas
-│   └── PRESENTATION.md              # 12-slide comprehensive internship presentation
 ├── models/
 │   ├── trained_model.joblib         # Serialized champion model artifact
 │   ├── eval_metrics.json            # Machine learning leaderboard metrics JSON
@@ -145,28 +140,6 @@ Open your browser at `http://localhost:8501`.
 
 ---
 
-## ☁️ Deployment Instructions (Streamlit Community Cloud)
-
-1. **Push Code to GitHub:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial release: Smart Water Consumption Predictor v1.0"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/smart-water-consumption-predictor.git
-   git push -u origin main
-   ```
-2. **Deploy on Streamlit Community Cloud:**
-   - Navigate to [share.streamlit.io](https://share.streamlit.io/) and log in with GitHub.
-   - Click **"New app"**.
-   - Select your repository: `<your-username>/smart-water-consumption-predictor`.
-   - Set Branch: `main`.
-   - Set Main file path: `app.py`.
-   - Click **"Deploy!"**.
-   - Streamlit Cloud will automatically install dependencies from `requirements.txt` and launch the app with a public HTTPS URL.
-
----
-
 ## 📜 Dataset Provenance & Honesty Notice
 
 > **Transparency Disclosure:**  
@@ -179,10 +152,3 @@ Open your browser at `http://localhost:8501`.
 Predictions and metrics provided by this system are statistical approximations based on historical data patterns, ambient weather forecasts, and calendar schedules. They are intended for demand planning and conservation coaching, not certified physical meter readings.
 
 ---
-
-## 📄 Documentation Deliverables
-
-- 📘 [Concept Note & 6-Week Roadmap](docs/CONCEPT_NOTE.md)
-- 📊 [Lean Canvas](docs/LEAN_CANVAS.md)
-- 📑 [Internship Presentation Deck (12 Slides)](docs/PRESENTATION.md)
-- 🔍 [Dataset Research & Investigation](data/raw/README.md)
