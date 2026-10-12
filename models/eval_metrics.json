@@ -1,0 +1,50 @@
+[
+  {
+    "Model":"Baseline: Naive Persistence (Lag 1)",
+    "Type":"Rule-based Baseline",
+    "MAE_Litres":83.61,
+    "RMSE_Litres":113.86,
+    "MAPE_Percent":16.04,
+    "R2_Score":-0.5186
+  },
+  {
+    "Model":"Baseline: 7-Day Moving Average",
+    "Type":"Statistical Baseline",
+    "MAE_Litres":77.02,
+    "RMSE_Litres":94.82,
+    "MAPE_Percent":14.77,
+    "R2_Score":-0.0532
+  },
+  {
+    "Model":"Ridge Linear Regression",
+    "Type":"Linear ML",
+    "MAE_Litres":43.16,
+    "RMSE_Litres":56.67,
+    "MAPE_Percent":8.39,
+    "R2_Score":0.6239
+  },
+  {
+    "Model":"Decision Tree Regressor",
+    "Type":"Tree ML",
+    "MAE_Litres":72.02,
+    "RMSE_Litres":113.82,
+    "MAPE_Percent":13.77,
+    "R2_Score":-0.5175
+  },
+  {
+    "Model":"Random Forest Regressor",
+    "Type":"Ensemble ML",
+    "MAE_Litres":52.09,
+    "RMSE_Litres":66.74,
+    "MAPE_Percent":10.07,
+    "R2_Score":0.4782
+  },
+  {
+    "Model":"Gradient Boosting Regressor",
+    "Type":"Ensemble ML",
+    "MAE_Litres":60.97,
+    "RMSE_Litres":80.36,
+    "MAPE_Percent":11.94,
+    "R2_Score":0.2436
+  }
+]
